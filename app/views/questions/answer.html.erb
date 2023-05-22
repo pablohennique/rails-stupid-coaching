@@ -1,0 +1,15 @@
+<h1 class="m-2">Stupid Coaching</h1>
+
+<div class="you">
+  <p><%= params[:question] %></p>
+  <p class="fst-italic">-You</p>
+</div>
+
+<div class="your-coach">
+  <p><%= @answer %></p>
+  <p class="fst-italic">-Your coach</p>
+</div>
+
+<div class="m-5">
+  <%= link_to "Ask another question", ask_path %>
+</div>
